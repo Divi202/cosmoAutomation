@@ -1,22 +1,17 @@
+const { Navbar } = require("./navbar.component");
+
 exports.HomePage = class HomePage {
   //Locate Elements
   constructor(page) {
     this.page = page;
-    this.homepageUrl = "https://www.cosco.in/";
+    //navbar component
+    this.navbar = new Navbar(page); // composition
 
-    //following best practices
-    this.navbarDropdownBtn = page.getByRole("button", { name: "SPORTS" });
+    this.homepageUrl = "https://www.cosco.in/";
   }
 
   //Actions
   async goToHomePage() {
     await this.page.goto(this.homepageUrl);
-  }
-
-  async selectDropdownItems(navbarItemName) {
-    //Following best practices
-    await this.navbarDropdownBtn.hover();
-
-    await this.page.getByRole("link", { name: `${navbarItemName}` }).click();
   }
 };
