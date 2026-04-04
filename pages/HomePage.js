@@ -10,7 +10,6 @@ exports.HomePage = class HomePage {
 
   //Actions
   async goToHomePage() {
-    console.log(this.navbarDropdownBtn);
     await this.page.goto(this.homepageUrl);
   }
 
