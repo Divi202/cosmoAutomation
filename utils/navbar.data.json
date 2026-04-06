@@ -109,5 +109,94 @@
       "Rackets",
       "String"
     ]
+  },
+  {
+    "navbarItem": "FITNESS",
+    "options": [
+      "Accessories",
+      "Recovery Adidas",
+      "Training Adidas",
+      "Yoga Adidas",
+      "Bench Adidas",
+
+      "Cardio",
+      "Air Bike",
+      "Elliptical Crosstrainer",
+      "Group Cycling Bike",
+      "Multi Gym",
+      "Recumbent Bike",
+      "Rowing Machine",
+      "Stair Climber",
+      "Stepper-Squat",
+      "Treadmills",
+      "Upright Bike",
+
+      "Special Equipments",
+      "AB Machines",
+      "Benches",
+      "Electric Gym Bed",
+      "Lat Pull Down- PL",
+      "Multi Functional Trainer",
+      "Multi Trainer",
+      "Rod Stand",
+      "Shoulder Press",
+      "Sissy Squat",
+      "Storage Rack",
+
+      "Strength",
+      "Cable Crossover",
+      "Crossfit Trainer",
+      "Dual Cable Cross",
+      "Freeweight",
+      "Functional Trainer",
+      "Multi Station Gym",
+      "Non Wt. Machines",
+      "Plate Loaded",
+      "Power Rack",
+      "Special Plate Loaded",
+      "Wt. Machines Dual",
+      "Wt. Machines Single"
+    ]
+  },
+  {
+    "navbarItem": "BRANDS",
+    "options": []
+  },
+  {
+    "navbarItem": "INVESTORS",
+    "options": [
+      "Annual Reports & Notices",
+      "Annual Reports",
+      "Notices",
+      "Code of Conduct & Policies",
+      "Code of Conduct",
+      "Policies",
+      "Compliances",
+      "Authorisation to KMPs",
+      "Compliance Clause",
+      "Corp. Governance Report",
+      "Related Party Disclosure",
+      "Secy. Compliance Certificate",
+      "Financial Results",
+      "News Paper Publication",
+      "Investor Information & Downloads",
+      "Composition of BoD & Committee",
+      "Holder of Physical Securities",
+      "Investor Information",
+      "MoA and AoA",
+      "SEBI Circulars",
+      "SEBI Circulars - ODR",
+      "Shareholding Pattern",
+      "Unclaimed Dividend",
+      "Contact for Investors"
+    ]
+  },
+  {
+    "navbarItem": "DOWNLOADS",
+    "options": []
+  },
+  {
+    "navbarItem": "CONTACT US",
+    "options": []
   }
 ]
