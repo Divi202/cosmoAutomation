@@ -4,6 +4,7 @@ exports.HomePage = class HomePage {
   //Locate Elements
   constructor(page) {
     this.page = page;
+
     //navbar component
     this.navbar = new Navbar(page); // composition
 

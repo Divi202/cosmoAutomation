@@ -7,7 +7,10 @@ exports.Navbar = class Navbar {
     await this.page.getByRole("button", { name: `${navbarItemName}` }).hover();
   }
 
-  async selectDropdownItem(optionName) {
-    await this.page.getByRole("link", { name: `${optionName}` }).click();
+  async selectDropdownItem(optionName, sectionHeading) {
+    await this.page
+      .getByRole("link", { name: `${optionName}` })
+      .first()
+      .click();
   }
 };
